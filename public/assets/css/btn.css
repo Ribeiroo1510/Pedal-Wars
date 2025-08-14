@@ -1,0 +1,75 @@
+:root {
+    --text-color: #FC4C02;
+    --btn-hover: #D84000;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 3px solid #D84000;
+    box-shadow: 0 5px 0 #9B2E00;
+    font-weight: 750;
+    background: var(--text-color);
+    transition: all 0s steps(1);
+    /* Passos para manter vibe pixel */
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    /* garante que translate funcione bem */
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.primary-btn:hover {
+    transform: translate(0, -2px);
+    /* levanta no hover */
+    box-shadow: 0 7px 0 #9B2E00;
+    background: var(--btn-hover);
+}
+
+.primary-btn:active {
+    transform: translate(0, 5px);
+    /* desce no clique */
+    box-shadow: 0 0 0 #000000;
+    /* sombra some pra dar sensação de pressão */
+    background: var(--btn-hover);
+}
+
+.secondary-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 3px solid #FC4C02;
+    box-shadow: 0 5px 0 #D84000;
+    font-weight: 750;
+    background: #fff;
+    transition: all 0s steps(1);
+    /* Passos para manter vibe pixel */
+    cursor: pointer;
+    text-decoration: none;
+    color: #FC4C02;
+    text-transform: uppercase;
+    display: inline-block;
+    /* garante que translate funcione bem */
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.secondary-btn:hover {
+    transform: translate(0, -2px);
+    /* levanta no hover */
+    box-shadow: 0 7px 0 #FC4C02;
+    background: var(--text-color);
+    color: #fff;
+}
+
+.secondary-btn:active {
+    transform: translate(0, 5px);
+    /* desce no clique */
+    box-shadow: 0 0 0 #000000;
+    /* sombra some pra dar sensação de pressão */
+    background: var(--text-color);
+}

@@ -1,0 +1,166 @@
+:root {
+    --text-color: #FC4C02;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h4,
+p {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-top {
+    width: 77vw;
+    height: 30vh;
+    margin: 7vw auto 0 auto;
+    position: relative;
+}
+
+.dashboard-top h1 {
+    color: var(--text-color);
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.dashboard-top h4 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 72px;
+    font-size: 20px;
+}
+
+.dashboard-bottom {
+    width: 77vw;
+    height: 34vh;
+    margin: 0 auto 10vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    height: 90%;
+    width: 45%;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    display: flex;
+}
+
+.container:hover {
+    translate: -2px -2px;
+    box-shadow: 5px 5px 0 #000;
+    cursor: pointer;
+}
+
+.container:active {
+    translate: 3px 3px;
+    box-shadow: none;
+}
+
+.profile,
+.active-challenges {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile-photo {
+    border: 3px solid #000;
+}
+
+.container img {
+    margin: 20px;
+}
+
+.profile h3,
+.active-challenges h3 {
+    color: var(--text-color);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.profile h4,
+.profile p {
+    font-size: 15px;
+}
+
+.friends-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.friends-top h1 {
+    color: var(--text-color);
+    font-size: 35px;
+}
+
+.friends-top h4 {
+    margin: 50px 0;
+    font-size: 20px;
+}
+
+.friends-ranking {
+    margin: 0 10vw;
+}
+
+.user {
+    padding-left: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.user:hover {
+    box-shadow: 5px 5px 0 #000;
+    translate: -2px -2px;
+}
+
+.user:active {
+    box-shadow: none;
+    translate: 3px 3px;
+}
+
+.user-photo {
+    border: 3px solid #000;
+    margin-left: -5px;
+}
+
+.user-stats {
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0 0 0;
+}
+
+.user-distance {
+    font-size: 20px;
+    margin: 0 0;
+}
+
+.diference {
+    font-size: 12px;
+}
